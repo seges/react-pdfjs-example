@@ -1,0 +1,18 @@
+.pdf-context, .pdf-viewer {
+    position: relative;
+    width: 100%;
+}
+.pdf-viewer {
+    padding-top: 1em;
+    padding-bottom: 3em;
+    background: transparent; /* Default color #3E3E3E; */
+}
+.pdf-page {
+    position: relative;
+    margin: 0 auto 3em auto;
+    padding: 0;
+    overflow: visible;
+    background-clip: content-box;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.54);
+    background-color: white;
+}
