@@ -9,7 +9,7 @@ import { Page } from './Page';
  * - default usage is in ../PDFViewer.js
  **/
 const Viewer = ({ pdf, ...props }) => {
-  const numPages = pdf ? pdf.pdfInfo.numPages : 0;
+  const numPages = pdf ? pdf.numPages : 0;
 
   if (pdf) {
     return (
